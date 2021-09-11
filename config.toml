@@ -1,0 +1,54 @@
+baseURL = 'http://example.org/'
+languageCode = 'en-us'
+title = 'Shriniket Acharya'
+theme = "hugo-ink"
+
+
+[params]
+	subtitle = "Crisp, minimal personal [blog theme for Hugo](https://github.com/knadh/hugo-ink)"
+
+	# Optional 64x64 avatar image.
+	avatar = "https://i.ibb.co/wWT9wrb/minimal-avatars-2.png"
+	#avatar = "https://thumbs4.imagebam.com/e7/a0/b5/ME3IF9X_t.png"
+# Nav.
+[[menu.main]]
+name = "Home"
+url = "/"
+weight = 1
+
+[[menu.main]]
+name = "All posts"
+url = "/posts"
+weight = 2
+
+[[menu.main]]
+name = "About"
+url = "/about"
+weight = 3
+
+[[menu.main]]
+name = "Tags"
+url = "/tags"
+weight = 4
+
+
+[[params.social]]
+name = "Twitter"
+icon = "twitter"
+url = "https://twitter.com/shriniket73"
+
+[[params.social]]
+name = "RSS"
+icon = "rss"
+url = "/index.xml"
+
+[[params.social]]
+name = "LinkedIN"
+icon = "linkedin"
+url = "https://www.linkedin.com/in/shriniket-acharya/"
+
+
+
+
+[taxonomies]
+   tag = "tags"

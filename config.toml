@@ -5,7 +5,7 @@ theme = "hugo-ink"
 
 
 [params]
-	subtitle = "Crisp,  personal [blog theme for Hugo](https://github.com/knadh/hugo-ink)"
+	subtitle = "Crisp,  personal blog"
 
 	# Optional 64x64 avatar image.
 	avatar = "https://i.ibb.co/wWT9wrb/minimal-avatars-2.png"
